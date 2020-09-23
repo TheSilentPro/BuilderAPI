@@ -10,10 +10,10 @@ import java.util.Map;
 /**
  * ShapedRecipeBuilder for 1.16.3
  *
- * @version 1.0.0
+ * @version 1.0
  * @author TheSilentPro
- * @since 9-21-2020
  */
+@Deprecated
 public class ShapedRecipeBuilder {
 
     private final ShapedRecipe shapedRecipe;

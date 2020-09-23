@@ -22,9 +22,8 @@ import java.util.*;
 /**
  * ItemBuilder for 1.16.3
  *
- * @version 1.0.0
+ * @version 1.0
  * @author TheSilentPro
- * @since 9-21-2020
  */
 public class ItemBuilder {
 

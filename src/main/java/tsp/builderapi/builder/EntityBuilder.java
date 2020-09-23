@@ -11,14 +11,12 @@ import org.bukkit.util.Vector;
 /**
  * EntityBuilder for 1.16.3
  *
- * @version 1.0.0
+ * @version 1.0
  * @author TheSilentPro
- * @since 9-21-2020
  */
 public class EntityBuilder {
 
     private Entity entity;
-    private EntityType type;
 
     public EntityBuilder(Entity entity) {
         this.entity = entity;
@@ -94,7 +92,7 @@ public class EntityBuilder {
         return this;
     }
 
-    public EntityBuilder set(String s, MetadataValue metadataValue) {
+    public EntityBuilder setMetadata(String s, MetadataValue metadataValue) {
         entity.setMetadata(s, metadataValue);
         return this;
     }

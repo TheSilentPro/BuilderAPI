@@ -1,6 +1,5 @@
 package tsp.builderapi.builder;
 
-import org.bukkit.Location;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeModifier;
 import org.bukkit.entity.*;
@@ -10,16 +9,14 @@ import org.bukkit.inventory.ItemStack;
 /**
  * LivingEntityBuilder for 1.16.3
  *
- * @version 1.0.0
+ * @version 1.0
  * @author TheSilentPro
- * @since 9-21-2020
  */
-public class LivingEntityBuilder extends EntityBuilder {
+public class LivingEntityBuilder {
 
-    private LivingEntity entity;
+    private final LivingEntity entity;
 
     public LivingEntityBuilder(LivingEntity entity) {
-        super(entity);
         this.entity = entity;
     }
 
