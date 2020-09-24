@@ -16,7 +16,7 @@ import java.util.UUID;
  */
 public class VillagerBuilder {
 
-    private Villager entity;
+    private final Villager entity;
 
     public VillagerBuilder(Villager villager) {
         entity = villager;

@@ -1,5 +1,6 @@
 package tsp.builderapi;
 
+import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Villager;
@@ -37,6 +38,10 @@ public class BuilderAPI {
     }
 
     public static Villager buildVillager(VillagerBuilder builder) {
+        return builder.build();
+    }
+
+    public static ArmorStand buildArmorStand(ArmorStandBuilder builder) {
         return builder.build();
     }
 
